@@ -938,7 +938,11 @@ Cake Animation:-https://codepen.io/deep1808/pen/RPqqWr
      
      function birth_date(){
      var age = prompt("How old are you?");
+         if (age != 20){
+             var age = prompt("Enter your real age");
+         } else {
      document.getElementById("age").innerHTML = age;
+         }
      };
      
     </script>
